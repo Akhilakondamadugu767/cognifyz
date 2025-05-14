@@ -1,0 +1,11 @@
+$primary-color: #3498db;
+$text-size: 18px;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: lighten($primary-color, 30%);
+  p {
+    color: $primary-color;
+    font-size: $text-size;
+  }
+}
